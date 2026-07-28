@@ -63,6 +63,7 @@ document.addEventListener('mousemove', (e) => {
 // --- 3. Button Alert Logic ---
 const contactBtn = document.getElementById('btn-contact');
 const overkillBtn = document.getElementById('btn-overkill');
+const projectBtn = document.getElementById('btn-project');
 
 const overkillJoke = (e) => {
     e.preventDefault(); // Stops the page from jumping to the top
@@ -71,3 +72,4 @@ const overkillJoke = (e) => {
 
 if (contactBtn) contactBtn.addEventListener('click', overkillJoke);
 if (overkillBtn) overkillBtn.addEventListener('click', overkillJoke);
+if (projectBtn) projectBtn.addEventListener('click', overkillJoke);
